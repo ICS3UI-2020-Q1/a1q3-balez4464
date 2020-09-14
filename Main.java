@@ -30,16 +30,16 @@ public class Main {
     //calculates subtotal
     double costNoTax = (CHARGER_COST * chargerQuant) + (MOTHER_BOARD * motherQuant) + (MICE * miceQuant);
     //tells user subtotal
-    System.out.println("Subtotal= " + "$" + costNoTax);
+    System.out.println("Subtotal=" + " $" + costNoTax);
 
     //calculates tax
     double tax = (costNoTax * 0.13);
     //tells user tax
-    System.out.println("Taxes = " + "$" + costNoTax * 0.13);
+    System.out.println("Taxes =" + " $" + costNoTax * 0.13);
 
     //calculates total with Taxes
     double total = (costNoTax + tax);
     //tell user their final total
-    System.out.println("Total = " + "$" + total);
+    System.out.println("Total =" + " $" + total);
   }
 }
